@@ -1,0 +1,34 @@
+/* 
+* Here the css code
+*/
+
+/* Basic styling for the WhatsApp button */
+.wnfep-whatsapp-button {
+    display: inline-block;
+    background-color: #25D366; /* WhatsApp Green */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    text-decoration: none !important;
+}
+
+/* Styling for the WhatsApp icon */
+.wnfep-whatsapp-icon {
+    background-image: url('path_to_your_whatsapp_icon.svg'); /* Update with the correct path to your WhatsApp icon */
+    background-size: cover;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+/* Hover effect for the button */
+.wnfep-whatsapp-button:hover {
+    background-color: #1ebfae; 
+    color: white;
+}
